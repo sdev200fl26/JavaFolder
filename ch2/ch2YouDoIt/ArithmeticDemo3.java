@@ -13,9 +13,9 @@ public class ArithmeticDemo3
                 int difference;
                 double average;
                 Scanner input = new Scanner(System.in);
-                System.out.print("Please enter a double >> ");
+                System.out.print("Please enter a integer >> ");
                 firstNumber = input.nextInt();
-                System.out.print("Please enter another double >> ");
+                System.out.print("Please enter another integer >> ");
                 secondNumber = input.nextInt();
                 sum = firstNumber + secondNumber;
                 difference = firstNumber - secondNumber;
