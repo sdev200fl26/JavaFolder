@@ -7,8 +7,7 @@ public class TestSandwich {
     public static void main(String[] args) {
         Sandwich firstSandwich = new Sandwich();
         firstSandwich = getData(firstSandwich);
-        System.out.println("You ordered a: ");
-        System.out.println(firstSandwich.getIngredient() +
+        System.out.println("You ordered a: " + firstSandwich.getIngredient() +
                 " on " + firstSandwich.getBreadType() +
                 " and the cost of the sandwich is $" + firstSandwich.getPrice());
     }
