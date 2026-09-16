@@ -25,7 +25,7 @@ public class AssignVolunteer3 {
             message = "a non-clothing donation";
         } else {
             volunteer = "invalid";
-            message = "an invalid notation type";
+            message = "an invalid donation type";
         }
         System.out.println("You entered " + donationType);
         System.out.println("This is " + message);
